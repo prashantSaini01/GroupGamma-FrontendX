@@ -1,0 +1,192 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+.navbar {
+  background: #4467B2; 
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar i + i {
+  margin-left: 20px;
+}
+
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.home-page h1 {
+  margin-bottom: 20px;
+}
+
+.home-page ul {
+  list-style: none;
+}
+
+.home-page li {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.home-page h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-page p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.home-page a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home-page a:hover {
+  text-decoration: underline;
+}
+
+
+.edit-profile-page form div {
+  margin-bottom: 15px;
+}
+
+.edit-profile-page label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-profile-page input,
+.edit-profile-page textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.edit-profile-page button {
+  background: #28a745;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-profile-page button:hover {
+  background: #218838;
+}
+
+
+.post-details-page h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.post-details-page p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .navbar ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar i + i {
+    margin-left: 10px;
+  }
+}
