@@ -9,11 +9,12 @@ const NavBar = () => {
       <i className="fas fa-bars"></i>
       <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/edit-profile">Profile</Link></li>
-          <li><Link to="/post/1">Post</Link></li>
-          <li>Messages</li>
-          <li>Notifications</li>
-          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/create-post">Create a post</Link></li>
+          <li><Link to="/post-list/">Posts</Link></li>
+          <li><Link to="/edit-user">Edit User</Link></li> 
+          <li><Link to="/get-users">Users</Link></li>
+          
+          
         </ul>
         
         

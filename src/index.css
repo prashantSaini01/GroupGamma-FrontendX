@@ -1,4 +1,4 @@
-
+/* we are creating the css for the entire body here */
 * {
   margin: 0;
   padding: 0;
@@ -189,4 +189,293 @@ body {
   .navbar i + i {
     margin-left: 10px;
   }
+}
+.create-post-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-post-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.create-post-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post-container label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.create-post-container input[type="text"],
+.create-post-container textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.create-post-container input[type="text"]:focus,
+.create-post-container textarea:focus {
+  border-color: #4467B2;
+  outline: none;
+}
+
+.create-post-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.create-post-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4467B2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-post-container button:hover {
+  background-color: #335191;
+}
+.edit-user-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.edit-user-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.edit-user-container div {
+  margin-bottom: 20px;
+}
+
+.edit-user-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4467B2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-user-container button:hover {
+  background-color: #335191;
+}
+
+.edit-user-container button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4467B2;
+}
+.user-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list-container li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-list-container li:hover {
+  background-color: #f0f0f0;
+}
+.create-user-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-user-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.create-user-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-user-container label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.create-user-container input[type="text"],
+.create-user-container input[type="email"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.create-user-container input[type="text"]:focus,
+.create-user-container input[type="email"]:focus {
+  border-color: #4467B2;
+  outline: none;
+}
+
+.create-user-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4467B2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-user-container button:hover {
+  background-color: #335191;
+}
+.delete-user-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-user-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.delete-user-container label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.delete-user-container input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.delete-user-container input[type="text"]:focus {
+  border-color: #4467B2;
+  outline: none;
+}
+
+.delete-user-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #DC3545;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-user-container button:hover {
+  background-color: #C82333;
+}
+.update-user-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-user-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.update-user-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-user-container label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.update-user-container input[type="text"],
+.update-user-container input[type="email"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.update-user-container input[type="text"]:focus,
+.update-user-container input[type="email"]:focus {
+  border-color: #4467B2;
+  outline: none;
+}
+
+.update-user-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28A745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-user-container button:hover {
+  background-color: #218838;
 }

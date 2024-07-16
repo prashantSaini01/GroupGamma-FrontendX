@@ -1,3 +1,4 @@
+// this is the home page of the web app
 import React from 'react';
 import PostList from './PostList';
 
