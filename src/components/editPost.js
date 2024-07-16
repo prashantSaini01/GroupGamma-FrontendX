@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 const EditPost = ({ onUpdate }) => {
-  const { postId } = useParams(); // Get postId from URL parameter
+  const { postId } = useParams(); 
   const [formData, setFormData] = useState({
     title: '',
     content: '',
@@ -48,9 +48,9 @@ const EditPost = ({ onUpdate }) => {
   };
 
   return (
-    <div>
+    <div className="edit-post-container">
       <h3>Edit Post</h3>
-      <form onSubmit={handleSubmit}>
+      <form className="edit-post-form" onSubmit={handleSubmit}>
         <label>Title:</label>
         <input type="text" name="title" value={formData.title} onChange={handleChange} />
         <label>Content:</label>

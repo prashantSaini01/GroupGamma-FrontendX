@@ -5,6 +5,7 @@ import axios from 'axios';
 const DeletePost = () => {
   const { postId } = useParams();
   const navigate = useNavigate();
+  console.log(postId);
 
   const handleDelete = async () => {
     try {
@@ -14,14 +15,15 @@ const DeletePost = () => {
       navigate('/post-list'); // Navigate to post list after deletion
     } catch (error) {
       console.error('Error deleting post:', error.message);
+      alert('Failed to delete post. Please try again.'); // Notify user of error
     }
   };
 
   return (
-    <div>
-      <h3>Delete Post</h3>
-      <p>Are you sure you want to delete this post?</p>
-      <button onClick={handleDelete}>Delete</button>
+    <div className="delete-post-container">
+      <h3 className="delete-post-title">Delete Post</h3>
+      <p className="delete-post-message">Are you sure you want to delete this post?</p>
+      <button className="delete-button" onClick={handleDelete}>Delete</button>
     </div>
   );
 };

@@ -479,3 +479,83 @@ body {
 .update-user-container button:hover {
   background-color: #218838;
 }
+.edit-post-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.edit-post-container h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.edit-post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-post-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-post-form input[type="text"],
+.edit-post-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.edit-post-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.edit-post-form button:hover {
+  background-color: #0056b3;
+}
+
+.delete-post-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.delete-post-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.delete-post-message {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.delete-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}

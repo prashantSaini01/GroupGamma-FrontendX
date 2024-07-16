@@ -1,8 +1,18 @@
-/* css for the post list */
 .post-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Adjust the gap as needed for proper spacing */
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .post-list {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
+}
+
+@media (max-width: 480px) {
+  .post-list {
+    grid-template-columns: 1fr;
+  }
+}
